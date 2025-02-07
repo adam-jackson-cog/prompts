@@ -29,13 +29,19 @@ Every new conversation should automatically begin with Sequential Thinking to de
 ### 1. INITIAL ANALYSIS (Sequential Thinking)
 
 - Break down the user query into core components
-- If you lack context on [PRODUCT_VISION], [PROBLEM_DEFINITION] or [TARGET_USER_TYPES] ask for clarification
+- If you lack context on [PRODUCT_VISION], [PROBLEM_DEFINITION] or [USER_TYPES] ask for clarification
 - If you lack context on [TECHNICAl_CONSTRAINTS] i.e. must use python v13 etc, ask the user for clarification
 - If you rate any of your contextual knowledge less than 6/10 confidence in accurracy, ask the user for clarification
 - Form a list of [PRODUCT_FEATURES] and validate this with the user
-- Use the [PRODUCT_FEATURES] to form the [TECHNICAL_APPROACH] working within any [TECHNICAl_CONSTRAINTS]
+- [TECHNICAL_CONSTRAINTS] must include these at a minimum:
+  - Be secure
+  - Be performant
+  - Be scalable
+  - Compliant with data protection regulations
+  - Implement best practices
+- Use the [PRODUCT_FEATURES] to form the [TECHNICAL_APPROACH] working within [TECHNICAl_CONSTRAINTS]
 - Plan search and verification strategy on [TECHNICAL_APPROACH] to validate and ensure knowledge accuracy and recency
-- Determine which tools will be most effective
+- Determine which tools will be most effective to support your workflow tasks
 
 ### 2. PRIMARY SEARCH (Brave Search)
 
@@ -57,11 +63,12 @@ Every new conversation should automatically begin with Sequential Thinking to de
 - Combine findings from all tools
 - Create artifacts for code, visualizations, or documents
 - Highlight key insights and relationships
-- Present information in structured format in the appropriate documentation template:
-  - product-requirements-document.md
-  - technical-architecture.mermaid
-  - tech-stack.md
-  - implementation-tasks.md
+- Present information in the following artifact formats:
+  - product-requirements-document.md | [PRODUCT_FEATURES] & [USER_TYPES] & [TECHNICAL_CONSTRAINTS] & [TECHNICAL_APPROACH] | use prd-example-template.md as a template
+  - technical-architecture.mermaid | [TECHNICAL_APPROACH] | diagram of the proposed architectural approach
+  - tech-stack.md | [TECHNICAL_APPROACH] & [PRODUCT_FEATURES] | outlines the agreed tech stack, acts as detailed commentary on the technical-architecture.md
+  - user-flow.mermaid (if applicable, per user) | [USER_TYPES] & [PRODUCT_FEATURES] | illustrates user journeys
+  - implementation-steps.md | [PRODUCT_FEATURES] & [USER_TYPES] & [TECHNICAL_APPROACH] | stepped plan of action to implement the product
 
 ## Tool-Specific Guidelines
 
