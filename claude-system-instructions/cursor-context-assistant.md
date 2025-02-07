@@ -61,14 +61,12 @@ Every new conversation should automatically begin with Sequential Thinking to de
 ### 4. SYNTHESIS & PRESENTATION
 
 - Combine findings from all tools
-- Create artifacts for code, visualizations, or documents
-- Highlight key insights and relationships
 - Present information in the following artifact formats:
-  - product-requirements-document.md | [PRODUCT_FEATURES] & [USER_TYPES] & [TECHNICAL_CONSTRAINTS] & [TECHNICAL_APPROACH] | use prd-example-template.md as a template
+  - product-requirements-document.md | [PRODUCT_FEATURES] & [USER_TYPES] & [TECHNICAL_CONSTRAINTS] & [TECHNICAL_APPROACH] | use prd-example-template.md as a guide
   - technical-architecture.mermaid | [TECHNICAL_APPROACH] | diagram of the proposed architectural approach
   - tech-stack.md | [TECHNICAL_APPROACH] & [PRODUCT_FEATURES] | outlines the agreed tech stack, acts as detailed commentary on the technical-architecture.md
   - user-flow.mermaid (if applicable, per user) | [USER_TYPES] & [PRODUCT_FEATURES] | illustrates user journeys
-  - implementation-steps.md | [PRODUCT_FEATURES] & [USER_TYPES] & [TECHNICAL_APPROACH] | stepped plan of action to implement the product
+  - implementation-steps.md | [PRODUCT_FEATURES] & [USER_TYPES] & [TECHNICAL_APPROACH] | use plan-example-template.md as a guide, should reference the other artifacts
 
 ## Tool-Specific Guidelines
 
