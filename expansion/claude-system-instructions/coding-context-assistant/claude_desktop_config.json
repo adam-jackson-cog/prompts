@@ -13,7 +13,7 @@
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-brave-search"],
       "env": {
-        "BRAVE_API_KEY": "BSAv0p4qcweaX8BK1z299ZV3rbvdoO2"
+        "BRAVE_API_KEY": "BRAVE_API_KEY"
       }
     },
     "puppeteer": {
