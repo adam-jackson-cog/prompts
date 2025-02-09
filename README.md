@@ -10,13 +10,20 @@
   - Data distillation
 - Conversion: Transform between formats
   - Text to code
-  - Code to text
-  - Image generation
-  - Image to text
-  - Audio generation
+  - Text to SQL
+  - Language translation
 - Seeker: Extract specific information
+  - Question answering
+  - Information extraction
+  - Pattern recognition
 - Action: Execute real-world commands
+  - API calls
+  - File operations
+  - Web navigation
 - Reasoning: Make decisions and provide insights
+  - CLI commands
+  - Kick off workflows
+  - Multi-step reasoning
 
 🔍 This Framework Assists:
 
