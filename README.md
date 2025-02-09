@@ -1,8 +1,19 @@
 🚀 Six fundamental categories of LLM use cases:
 
 - Expansion: Generate content and ideas
+  - Content generation
+  - Explanation
+  - Code geeneration
 - Compression: Summarize and distill information
+  - Text summarisation
+  - Key points extraction
+  - Data distillation
 - Conversion: Transform between formats
+  - Text to code
+  - Code to text
+  - Image generation
+  - Image to text
+  - Audio generation
 - Seeker: Extract specific information
 - Action: Execute real-world commands
 - Reasoning: Make decisions and provide insights
