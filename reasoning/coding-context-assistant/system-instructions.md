@@ -45,7 +45,7 @@ Every new conversation should automatically begin with Sequential Thinking to de
 
 ### 3. GET USER AGREEMENT ON PRODUCT FEATURES
 
-- Form a list of [PRODUCT_FEATURES]
+- Form a list of [PRODUCT_FEATURES] using the MoSCoW framework to prioritize features for an efficient MVP launch
 - Output the list of [PRODUCT_FEATURES] to agree with the user before proceeding
 
 ### 4. INITIAL ANALYSIS (Sequential Thinking)
